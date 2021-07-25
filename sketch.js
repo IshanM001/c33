@@ -49,12 +49,12 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
-        background(backgroundImg);
+   // if(backgroundImg)
+        background("white");
     
         noStroke();
         textSize(35)
-        fill("white")
+        fill("black")
         text("Score  " + score, width-300, 50)
         image(hillimage,50,120,500,370)
     
